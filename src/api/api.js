@@ -3,8 +3,8 @@ import axios from 'axios'
 import { getToken } from '../service/auth'
 
 
- const API = 'http://localhost:3000'
-//const API = 'https://max-store-server.onrender.com'
+ //const API = 'http://localhost:3000'
+const API = 'https://gadget-store-backend-2.onrender.com'
 
 
 const axiosInstance = axios.create({
